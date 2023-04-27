@@ -1,0 +1,135 @@
+body{
+    background-color: beige;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+    font-family: 'Questrial', sans-serif;
+}
+h1{
+    color: black;
+    font-size: 122px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    line-height: 80px;
+    font-family: 'Rozha One', serif;
+}
+h6{
+    font-size:39.5px ;
+    margin-bottom: 10px;
+    margin-top: 50;
+    line-height: 27px;
+    font-weight: 100;
+    margin-left: -7px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+span{
+    color: olive;
+    opacity: 0.75;
+}
+span:hover{
+    opacity: 1;
+}
+ul{
+    list-style: none;
+    display: inline-block;
+    margin-top: 50px;
+    padding-left: 0;
+}
+li{
+    display: inline-flex;
+}
+.primeiro-paragrafo{
+    font-size: 20.1px;
+    margin-bottom: 20px;
+    margin-left: -8px;
+}
+.segundo-paragrafo{
+    margin-top: 50;
+    margin-bottom: 10px;
+}
+.first{
+    margin-left: 20px;
+}
+div.img {
+    margin-right: 27px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.img:hover {
+    border: 1.6px solid olive;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+div.img img {
+    width: 100%;
+    height: auto;
+}
+:root {
+    --animate-delay: 0.25s;
+  }
+
+  @media (max-width: 640px) {
+    body {
+      background: beige;
+      text-align: center;
+    }
+    h1 {
+      font-size: 45px;
+      margin-top: 20px;
+    }
+    h6{
+        margin-top: 20px;
+        font-size: 19.75;
+        margin-bottom: 0;
+    }
+    ul{
+        align-items: center;
+        list-style: none;
+        display: inline-block;
+        margin-top: 0px;
+        padding-left: 0;
+    }
+    li{
+        display: flex;
+    }
+    div.img {
+        margin-right: 0px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+  
+    p {
+      font-size: 20px;
+    }
+    .primeiro-paragrafo {
+        margin-top: 10px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        font-weight: 300;
+      }
+    .segundo-paragrafo {
+        margin-top: 0;
+        font-size: 15px;
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
+    span{
+        font-weight: 600;
+    }
+    span:hover{
+        font-weight: 600;
+    }
+  }
